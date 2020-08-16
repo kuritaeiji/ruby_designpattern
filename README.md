@@ -20,3 +20,6 @@
   railsの場合はhas_manyやbelongs_toによってcompositを実現している。
 # 5.Iterator
   あるコレクションの要素に順にアクセスする方法を提供するのがIterator。iteratorには内部イテレーターと外部イテレーターがある。
+# 6.Command
+  アルゴリズムを一部変更したい時は、commandパターンが使える。また、一連の複数の命令を実行させたい時もcommandパターンを使える。commandパターンは複数の命令のリストを保存でき、元に戻したい時も元に戻せる機能も追加
+  できる。commandパターンはcompositパターンと相性が良い。
