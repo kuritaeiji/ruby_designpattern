@@ -115,8 +115,8 @@ end
 # big_and_rb_expr = And.new(Bigger.new(1024), FileName.new('*.rb'))
 # puts(big_and_rb_expr.evaluate('./'))
 
-big_and_rb_expr = Bigger.new(1024) & FileName.new('*.rb')
-puts(big_and_rb_expr.evaluate('./'))
+# big_and_rb_expr = Bigger.new(1024) & FileName.new('*.rb')
+# puts(big_and_rb_expr.evaluate('./'))
 
 class Parser
   def initialize(text)
